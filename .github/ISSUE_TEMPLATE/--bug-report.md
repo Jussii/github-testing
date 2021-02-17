@@ -10,7 +10,7 @@ assignees: ''
 ## 🐛 Bug Report
 
 <!--
-    Thank you for using Daily and taking time to report a bug.
+    Thank you for using Junction App and taking time to report a bug.
 
     Please try to spend some time to understand the bug and reproduce it.
     Take a look at our template and try to add as much detail as possible.
@@ -56,10 +56,6 @@ assignees: ''
 <!--
     Tell us about your environment
 -->
-
-#### Operating System
-
-#### Version of Daily
 
 #### Browser
 
