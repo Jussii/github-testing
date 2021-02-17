@@ -57,6 +57,8 @@ assignees: ''
     Tell us about your environment
 -->
 
+#### Operating System
+
 #### Browser
 
 <!--
@@ -64,7 +66,13 @@ assignees: ''
         Chrome/Safari
     Mobile device!?
         If it's a mobile device, please mention details.
-        Screenshots would be helpful.
+-->
+
+### Screenshots
+
+<!--
+    If possible screenshots would be helpful.
+    Especially if the bug is UI related
 -->
 
 
