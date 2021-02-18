@@ -1,82 +1,67 @@
----
-name: "\U0001F41B Bug Report"
-about: I would like to report a bug.
-title: "\U0001F41B BUG: "
-labels: "bug"
-assignees: ''
-
----
-
-## 🐛 Bug Report
-
-<!--
-    Thank you for using Junction App and taking time to report a bug.
-
-    Please try to spend some time to understand the bug and reproduce it.
-    Take a look at our template and try to add as much detail as possible.
-    The more details we have, easier it would be to fix it.
-
-    If any heading is not applicable, put `NA`.
-    For additional information, create an extra H2 heading and add extra info.
--->
-
-### What went wrong? 🤔
-
-<!--
-    What's not working as expected? A clear and precise description.
-    Screenshots are always helpful!
--->
-
-### Expected Behavior
-
-<!--
-    How did you expect it to behave?
---->
-
-### Actual Behavior
-
-<!--
-    How is behaving?
---->
-
-### Steps to Reproduce Issue
-
-<!--
-    If possible, please share the steps to reproduce the issue.
--->
-
-### Solution
-
-<!--
-    If you have any suggestions on fixing the issue.
--->
-
-### Environment
-
-<!--
-    Tell us about your environment
--->
-
-#### Operating System
-
-#### Browser
-
-<!--
-    Browser info:
-        Chrome/Safari
-    Mobile device!?
-        If it's a mobile device, please mention details.
--->
-
-### Screenshots
-
-<!--
-    If possible screenshots would be helpful.
-    Especially if the bug is UI related
--->
-
-
-
-<!--
-    Thank you for taking your time to report the issue! Appreciate your help.
--->
+name: Bug Report
+about: Create a bug report for the Next.js core
+title: ''
+labels: 'template: bug'
+issue_body: true
+inputs:
+  - type: description
+    attributes:
+      value: Thanks for taking the time to file a bug report! Please fill out this form as completely as possible.
+  - type: description
+    attributes:
+      value: If you leave out sections there is a high likelihood it will be moved to the GitHub Discussions "Help" section.
+  - type: description
+    attributes:
+      value: 'Please first verify if your issue exists in the Next.js canary release line: `npm install next@canary`.'
+  - type: description
+    attributes:
+      value: 'next@canary is the beta version of Next.js. It includes all features and fixes that are pending to land on the stable release line.'
+  - type: input
+    attributes:
+      label: What version of Next.js are you using?
+      description: 'For example: 10.0.1'
+      required: true
+  - type: input
+    attributes:
+      label: What version of Node.js are you using?
+      description: 'For example: 12.0.0'
+      required: true
+  - type: input
+    attributes:
+      label: What browser are you using?
+      description: 'For example: Chrome, Safari'
+      required: true
+  - type: input
+    attributes:
+      label: What operating system are you using?
+      description: 'For example: macOS, Windows'
+      required: true
+  - type: input
+    attributes:
+      label: How are you deploying your application?
+      description: 'For example: next start, next export, Vercel, Other platform'
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe the Bug
+      description: A clear and concise description of what the bug is.
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: A clear and concise description of what you expected to happen.
+      required: true
+  - type: textarea
+    attributes:
+      label: To Reproduce
+      description: Steps to reproduce the behavior, please provide a clear code snippets that always reproduces the issue or a GitHub repository. Screenshots can be provided in the issue body below.
+      required: true
+  - type: description
+    attributes:
+      value: Before posting the issue go through the steps you've written down to make sure the steps provided are detailed and clear.
+  - type: description
+    attributes:
+      value: Contributors should be able to follow the steps provided in order to reproduce the bug.
+  - type: description
+    attributes:
+      value: These steps are used to add integration tests to ensure the same issue does not happen again. Thanks in advance!
