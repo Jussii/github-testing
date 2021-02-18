@@ -7,7 +7,9 @@ assignees: ''
 
 ---
 
+<!--
 For bigger scope ideas and features please use the [Github Discussions](https://www.github.com/jussii/github-testing/)
+-->
 
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
